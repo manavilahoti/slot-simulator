@@ -80,7 +80,7 @@ const transpose = (reels) => {
     let n = reels.length;
     for (let i = 0; i < reels.length; i++) {
         for (let j = i + 1; j < reels.length; j++) {
-            [reels[i][j], reels[j][i]] = [reels[j][i], reels[i][j]];;
+            [reels[i][j], reels[j][i]] = [reels[j][i], reels[i][j]];
         }
     }
     return reels;
